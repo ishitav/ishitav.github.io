@@ -19,12 +19,6 @@ export default function About() {
         <h1 className="text-4xl font-bold text-center text-pink-600">💖 About Me 💖</h1>
         <p className="mt-2 text-center text-lg">Hi, I'm <strong>Ishita Vasishtha</strong>, an Electrical & Computer Engineering student at USC. I love research, technology, and creating impactful projects. ✨</p>
 
-        {/* Download Resume Button */}
-        <div className="mt-4 flex justify-center">
-          <a href="/resume.pdf" download className="flex items-center bg-pink-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-pink-600 transition">
-            <FaDownload className="mr-2" /> Download Resume
-          </a>
-        </div>
 
         {/* Collapsible Sections */}
         <div className="mt-6">
