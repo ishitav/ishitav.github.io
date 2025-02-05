@@ -43,18 +43,18 @@ export default function Home() {
           </div>
 
           {/* Text Content */}
-          <div>
+          <div  class = "center-div">
             <h1 className="text-5xl sm:text-6xl font-extrabold text-gray-800 tracking-tight font-mono">
               Welcome! I'm Ishita.
             </h1>
             <h2 className="text-xl sm:text-2xl font-medium text-gray-600 mt-2">
               Student | Researcher | Engineer
             </h2>
-            <h4 className="mt-4 text-lg text-gray-700 leading-relaxed font-serif max-w-lg">
+            <p className="mt-4 text-lg text-gray-700 leading-relaxed font-serif max-w-lg" >
               Hi there! I'm so glad you're here. I’m an <span className="text-blue-600 font-medium">Electrical & Computer Engineering</span> student passionate about  
               <span className="text-gray-700 font-medium"> research, technology, and innovation</span>.  
               I love <span className="text-gray-800 font-medium">building, learning, and sharing my journey</span> through meaningful projects and discoveries.
-            </h4>
+            </p>
           </div>
         </div>
 
