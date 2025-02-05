@@ -13,10 +13,10 @@ export default function Home() {
         {/* Profile & Title Section */}
         <div className="flex flex-col sm:flex-row items-center gap-6">
           
-          {/* Profile Image */}
+          {/* Profile Image
           <div className="w-28 h-28 rounded-full border-4 border-gray-200 shadow-lg overflow-hidden">
             <img src="/profile.jpg" alt="Ishita" className="w-full h-full object-cover" />
-          </div>
+          </div> */}
 
           {/* Text Content */}
           <div  class = "flex flex-col items-center text-center">
@@ -29,7 +29,7 @@ export default function Home() {
             <p className="mt-4 text-lg text-gray-700 leading-relaxed font-serif max-w-lg" >
               Hi there! I'm so glad you're here. I’m an <span className="text-blue-600 font-medium">Electrical & Computer Engineering</span> student passionate about  
               <span className="text-gray-700 font-medium"> research, technology, </span>   and the intersection between <span className="text-blue-600 font-medium">technology</span>  
-              and  <span className="text-blue-600 font-medium">healthcare.</span>
+              and  <span className="text-blue-600 font-medium">healthcare. </span>
               I'd love to connect (: 
             </p>
 
