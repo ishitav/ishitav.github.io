@@ -1,25 +1,30 @@
+import Header from "../components/Header";
+
 export default function About() {
   return (
     <main className="flex flex-col items-center min-h-screen bg-gradient-to-b from-gray-100 to-gray-300 text-gray-900 p-8">
       
-      {/* 🔹 Main Content Container */}
-      <div className="max-w-5xl w-full bg-white p-12 shadow-lg transition hover:shadow-xl">
+      {/* 🔹 Header */}
+      <Header />
+
+      {/* 🔹 Main Content */}
+      <section className="w-full max-w-5xl mt-20 px-6">
         
-        {/* 🔹 Header Section */}
+        {/* 🔹 Header Text */}
         <div className="text-center">
-          <h1 className="text-5xl font-extrabold text-gray-800 tracking-tight font-mono">
+          <h1 className="text-4xl font-extrabold text-gray-800 tracking-tight font-mono">
             About Me
           </h1>
-          <p className="mt-3 text-lg text-gray-700 leading-relaxed font-serif max-w-2xl mx-auto">
+          <p className="mt-4 text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto">
             Hi! I'm <strong className="text-gray-800">Ishita Vasishtha</strong>, an **Electrical & Computer Engineering** student at USC.  
-            I work at the intersection of **hardware, machine learning, and wireless systems**, bridging software and electronics  
-            to build efficient, high-performance solutions. My research spans **signal processing, system design, and embedded computing**.  
+            My work focuses on **hardware design, machine learning, and wireless systems**.  
+            I specialize in **signal processing, system optimization, and embedded computing**, bridging software and electronics.
           </p>
         </div>
 
-        {/* 🔹 Education Section */}
+        {/* 🔹 Education */}
         <div className="mt-12">
-          <h2 className="text-3xl font-semibold text-gray-800 font-mono">🎓 Education</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 font-mono">Education</h2>
           <p className="mt-2 text-lg text-gray-700">
             <strong>B.S. Electrical & Computer Engineering</strong> <br />
             <span className="text-gray-600">University of Southern California, May 2026</span> <br />
@@ -27,22 +32,22 @@ export default function About() {
           </p>
         </div>
 
-        {/* 🔹 Skills Section */}
+        {/* 🔹 Skills */}
         <div className="mt-12">
-          <h2 className="text-3xl font-semibold text-gray-800 font-mono">🛠 Skills</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 font-mono">Skills</h2>
           <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-6 text-lg text-gray-700">
-            <p>💻 <strong>Programming:</strong> Python, MATLAB, C/C++, Verilog, JavaScript, Git</p>
-            <p>🔌 <strong>Embedded Systems:</strong> Raspberry Pi, Arduino, STM32, ESP32, FPGA (Vivado, Quartus)</p>
-            <p>⚡ <strong>Hardware Design:</strong> PCB Design (KiCad, Altium), SPICE Simulations</p>
-            <p>📡 <strong>Wireless & Signal Processing:</strong> mMIMO, RF Analysis, Spectral Analysis</p>
-            <p>🤖 <strong>Machine Learning:</strong> TensorFlow, PyTorch, Scikit-learn, Model Optimization</p>
-            <p>🔬 <strong>System Design:</strong> Real-time computing, hardware-software integration</p>
+            <p>Programming: Python, MATLAB, C/C++, Verilog, JavaScript, Git</p>
+            <p>Embedded Systems: Raspberry Pi, Arduino, STM32, ESP32, FPGA (Vivado, Quartus)</p>
+            <p>Hardware Design: PCB Design (KiCad, Altium), SPICE Simulations</p>
+            <p>Wireless & Signal Processing: mMIMO, RF Analysis, Spectral Analysis</p>
+            <p>Machine Learning: TensorFlow, PyTorch, Scikit-learn, Model Optimization</p>
+            <p>System Design: Real-time computing, hardware-software integration</p>
           </div>
         </div>
 
         {/* 🔹 Research & Publications */}
         <div className="mt-12">
-          <h2 className="text-3xl font-semibold text-gray-800 font-mono">📜 Research & Publications</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 font-mono">Research & Publications</h2>
           <p className="mt-2 text-lg text-gray-700">
             <a href="https://doi.org/10.48550/arXiv.2405.20617" target="_blank" rel="noopener noreferrer" 
               className="text-blue-600 hover:text-blue-800 transition">
@@ -51,14 +56,8 @@ export default function About() {
           </p>
         </div>
 
-        {/* 🔹 Back to Home Button */}
-        <div className="mt-12 flex justify-center">
-          <a href="/" className="bg-gray-800 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-gray-900 transition text-lg">
-            ← Back to Home
-          </a>
-        </div>
+      </section>
 
-      </div>
     </main>
   );
 }

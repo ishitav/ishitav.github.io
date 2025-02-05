@@ -1,36 +1,12 @@
+import Header from "../components/Header";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Home() {
   return (
     <main className="flex flex-col items-center min-h-screen bg-gradient-to-b from-gray-100 to-gray-300 text-gray-900 font-sans">
       
-      {/* 🔹 Navigation Bar */}
-      <nav className="w-full fixed top-0 left-0 bg-white shadow-md py-3 z-50">
-        <div className="max-w-5xl mx-auto flex justify-between px-8">
-          {/* Left - Name */}
-          <h2 className="text-xl font-bold text-gray-800 font-mono">Ishita Vasishtha</h2>
-          {/* Right - Nav Links */}
-          <div className="space-x-6">
-            {[
-              { name: "About Me", href: "/about" },
-              { name: "Resume", href: "/resume" },
-              { name: "Projects", href: "/projects" },
-              { name: "Publications", href: "/publications" },
-              { name: "Involvements", href: "/involvements" },
-              { name: "Contact", href: "/contact" }
-            ].map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="text-lg font-medium text-gray-600 hover:text-blue-500 transition"
-              >
-                {link.name}
-              </a>
-            ))}
-          </div>
-        </div>
-      </nav>
-
+      <Header />
+     
       {/* 🔹 Hero Section */}
       <section className="w-full flex flex-col items-center justify-center min-h-screen text-center px-6">
         
