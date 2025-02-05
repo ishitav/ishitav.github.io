@@ -59,7 +59,7 @@ export default function Home() {
         </div>
 
         {/* 🔹 Social Links */}
-        <div className="mt-6 flex justify-center space-x-6 text-2xl" style={{ textAlign: 'center' }}>
+        <div className="mt-6 flex justify-center space-x-6 text-2xl" >
           <a href="https://github.com/ishitav" target="_blank" className="text-gray-700 hover:text-gray-500 transition">
             <FaGithub />
           </a>
