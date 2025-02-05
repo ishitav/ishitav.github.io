@@ -1,9 +1,9 @@
 export default function Header() {
   return (
     <nav className="w-full fixed top-0 left-0 bg-white shadow-md py-4 z-50">
-      <div className="max-w-6xl mx-auto flex items-center justify-between px-8">
+      <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-between px-10">
         
-        {/* 🔹 Name Section (Now Properly Spaced) */}
+        {/* 🔹 Name Section */}
         <h2 className="text-xl font-bold text-gray-800 font-mono whitespace-nowrap">
           Ishita Vasishtha
         </h2>
