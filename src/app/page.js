@@ -38,7 +38,7 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row items-center gap-6">
           
           {/* Profile Image */}
-          <div className="w-36 h-36 rounded-full border-4 border-gray-200 shadow-lg overflow-hidden">
+          <div className="w-28 h-28 rounded-full border-4 border-gray-200 shadow-lg overflow-hidden">
             <img src="/profile.jpg" alt="Ishita" className="w-full h-full object-cover" />
           </div>
 
@@ -55,21 +55,23 @@ export default function Home() {
               <span className="text-gray-700 font-medium"> research, technology, and innovation</span>.  
               I love <span className="text-gray-800 font-medium">building, learning, and sharing my journey</span> through meaningful projects and discoveries.
             </p>
+
+            {/* 🔹 Social Links */}
+            <div className="mt-6 flex justify-center space-x-6 text-2xl">
+              <a href="https://github.com/ishitav" target="_blank" className="text-gray-700 hover:text-gray-500 transition">
+                <FaGithub />
+              </a>
+              <a href="https://linkedin.com/in/ishitav" target="_blank" className="text-blue-700 hover:text-blue-500 transition">
+                <FaLinkedin />
+              </a>
+              <a href="mailto:ishitavas@gmail.com" className="text-gray-700 hover:text-gray-500 transition">
+                <FaEnvelope />
+              </a>
+            </div>
           </div>
         </div>
 
-        {/* 🔹 Social Links */}
-        <div className="mt-6 flex justify-center space-x-6 text-2xl">
-          <a href="https://github.com/ishitav" target="_blank" className="text-gray-700 hover:text-gray-500 transition">
-            <FaGithub />
-          </a>
-          <a href="https://linkedin.com/in/ishitav" target="_blank" className="text-blue-700 hover:text-blue-500 transition">
-            <FaLinkedin />
-          </a>
-          <a href="mailto:ishitavas@gmail.com" className="text-gray-700 hover:text-gray-500 transition">
-            <FaEnvelope />
-          </a>
-        </div>
+        
       </section>
 
     </main>
