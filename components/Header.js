@@ -4,7 +4,7 @@ export default function Header() {
       <div className="max-w-5xl mx-auto flex justify-between items-center px-8">
         
         {/* 🔹 Left - Name (Clickable Home Button) */}
-        <a href="/" className="text-xl font-bold text-gray-800 font-mono mr-12 hover:text-blue-500 transition">
+        <a href="/" className="text-xl font-bold text-gray-800 font-mono mr-12px hover:text-blue-500 transition">
           Ishita Vasishtha
         </a>
 
