@@ -32,12 +32,8 @@ export default function About() {
           </div>
         </div>
 
-       {/* 🔹 Opportunity Section */}
-       <p className="mt-12 text-lg text-gray-700 leading-relaxed sm:w-3/4">
-          I'm always open to new opportunities! If you think I’d be a great fit for a project, research, or collaboration, feel free to reach out—I’d love to connect.
-        </p>
-        {/* 🔹 Education Section (Centered to the Page) */}
-        <div className="mt-12 flex flex-col items-center text-center">
+        {/* 🔹 Education Section (More Spread Out) */}
+        <div className="mt-12 flex flex-col sm:flex-row items-center sm:items-start sm:justify-between text-left">
           
           {/* USC Logo */}
           <div className="w-24 h-24 rounded-full border-2 border-gray-400 shadow-md overflow-hidden">
@@ -45,7 +41,7 @@ export default function About() {
           </div>
 
           {/* Education Details */}
-          <div className="mt-4">
+          <div className="sm:w-3/4">
             <h2 className="text-2xl font-semibold text-gray-800 font-mono">Education</h2>
             <p className="mt-2 text-lg text-gray-700">
               <strong>B.S. Electrical & Computer Engineering</strong> <br />
@@ -55,30 +51,28 @@ export default function About() {
           </div>
         </div>
 
-        {/* 🔹 Quick Info Section (Balanced & Professional) */}
-<div className="mt-12 border-t border-gray-400 pt-6 text-lg text-gray-700 font-mono">
-  <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
-    
-    {/* Location */}
-    <div className="flex flex-col items-center">
-      <span className="text-xl font-semibold text-gray-800">Location</span>
-      <p className="mt-2 text-gray-600">Los Angeles, CA</p>
-    </div>
+        {/* 🔹 Quick Info Section (More Spread Out & Readable) */}
+        <div className="mt-12 border-t border-gray-400 pt-6 text-lg text-gray-700">
+          <div className="flex flex-col sm:flex-row justify-between sm:space-x-10">
+            <div>
+              <span className="font-semibold text-gray-800">📍 Location</span> <br />
+              Los Angeles, CA
+            </div>
+            <div>
+              <span className="font-semibold text-gray-800">🌟 Fun Fact</span> <br />
+              I love solving chess puzzles & strategy games!
+            </div>
+            <div>
+              <span className="font-semibold text-gray-800">⚡ Current Interest</span> <br />
+              Exploring hardware for AI & biotech applications.
+            </div>
+          </div>
+        </div>
 
-    {/* Fun Fact */}
-    <div className="flex flex-col items-center">
-      <span className="text-xl font-semibold text-gray-800">Something Unexpected</span>
-      <p className="mt-2 text-gray-600">Once fell into a deep rabbit hole of chess puzzles… and never really left.</p>
-    </div>
-
-    {/* Current Interest (More Quirky, Still Professional) */}
-    <div className="flex flex-col items-center">
-      <span className="text-xl font-semibold text-gray-800">What I'm Exploring</span>
-      <p className="mt-2 text-gray-600">Learning about hardware design and integration with AI and real-time computing.</p>
-    </div>
-  </div>
-</div>
-       
+        {/* 🔹 Opportunity Section */}
+        <p className="mt-12 text-lg text-gray-700 leading-relaxed sm:w-3/4">
+          I'm always open to new opportunities! If you think I’d be a great fit for a project, research, or collaboration, feel free to reach out—I’d love to connect.
+        </p>
 
       </section>
     </main>
