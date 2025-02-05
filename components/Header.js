@@ -15,7 +15,7 @@ export default function Header() {
             { name: "Resume", href: "/resume" },
             { name: "Projects", href: "/projects" },
             { name: "Publications", href: "/publications" },
-            { name: "Involvements", href: "/involvements" },
+           
             { name: "Contact", href: "/contact" }
           ].map((link) => (
             <a
