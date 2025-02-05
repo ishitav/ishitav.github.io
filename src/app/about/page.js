@@ -15,10 +15,12 @@ export default function About() {
           <h1 className="text-4xl font-extrabold text-gray-800 tracking-tight font-mono">
             About Me
           </h1>
-          <p className="mt-4 text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto">
-            Hi! I'm <strong className="text-gray-800">Ishita Vasishtha</strong>, an **Electrical & Computer Engineering** student at USC.  
-            My work focuses on **hardware design, machine learning, and wireless systems**.  
-            I specialize in **signal processing, system optimization, and embedded computing**, bridging software and electronics.
+            <p className="mt-4 text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto">
+              Hi! I'm <strong className="text-gray-800">Ishita Vasishtha</strong>, an 
+              <strong className="text-blue-600"> Electrical & Computer Engineering </strong> 
+              student at USC. My work focuses on 
+              <strong className="text-blue-700"> hardware design, machine learning, and wireless systems</strong>.  
+              
           </p>
         </div>
 
@@ -32,7 +34,7 @@ export default function About() {
           </p>
         </div>
 
-        {/* 🔹 Skills */}
+        {/* 🔹 Skills
         <div className="mt-12">
           <h2 className="text-2xl font-semibold text-gray-800 font-mono">Skills</h2>
           <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-6 text-lg text-gray-700">
@@ -43,9 +45,9 @@ export default function About() {
             <p>Machine Learning: TensorFlow, PyTorch, Scikit-learn, Model Optimization</p>
             <p>System Design: Real-time computing, hardware-software integration</p>
           </div>
-        </div>
+        </div> */}
 
-        {/* 🔹 Research & Publications */}
+        {/* 🔹 Research & Publications
         <div className="mt-12">
           <h2 className="text-2xl font-semibold text-gray-800 font-mono">Research & Publications</h2>
           <p className="mt-2 text-lg text-gray-700">
@@ -54,7 +56,7 @@ export default function About() {
               Large-scale Outdoor Cell-free mMIMO Channel Measurement at 3.5 GHz
             </a>
           </p>
-        </div>
+        </div> */}
 
       </section>
 
