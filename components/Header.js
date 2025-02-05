@@ -1,15 +1,15 @@
 export default function Header() {
   return (
     <nav className="w-full fixed top-0 left-0 bg-white shadow-md py-3 z-50">
-      <div className="max-w-5xl mx-auto flex justify-between px-8">
+      <div className="max-w-5xl mx-auto flex justify-between items-center px-8">
         
-        {/* 🔹 Left - Name (Now Clickable) */}
-        <a href="/" className="text-xl font-bold text-gray-800 font-mono pr-12 hover:text-blue-500 transition">
+        {/* 🔹 Left - Name (Clickable Home Button) */}
+        <a href="/" className="text-xl font-bold text-gray-800 font-mono mr-12 hover:text-blue-500 transition">
           Ishita Vasishtha
         </a>
 
         {/* 🔹 Right - Navigation Links */}
-        <div className="space-x-6">
+        <div className="flex space-x-6">
           {[
             { name: "About", href: "/about" },
             { name: "Resume", href: "/resume" },
