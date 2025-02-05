@@ -43,7 +43,7 @@ export default function Home() {
           </div>
 
           {/* Text Content */}
-          <div  class = "center-div">
+          <div  class = "text-center">
             <h1 className="text-5xl sm:text-6xl font-extrabold text-gray-800 tracking-tight font-mono">
               Welcome! I'm Ishita.
             </h1>
