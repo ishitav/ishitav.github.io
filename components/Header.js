@@ -1,17 +1,16 @@
 export default function Header() {
   return (
-    <nav className="w-full fixed top-0 left-0 bg-white shadow-md py-4 z-50">
-      <div className="max-w-6xl mx-auto flex flex-wrap items-center justify-between px-10">
+    <nav className="w-full fixed top-0 left-0 bg-white shadow-md py-3 z-50">
+      <div className="max-w-5xl mx-auto flex justify-between px-8">
         
-        {/* 🔹 Name Section */}
-        <h2 className="text-xl font-bold text-gray-800 font-mono whitespace-nowrap">
+        {/* 🔹 Left - Name (Now Clickable) */}
+        <a href="/" className="text-xl font-bold text-gray-800 font-mono pr-12 hover:text-blue-500 transition">
           Ishita Vasishtha
-        </h2>
+        </a>
 
-        {/* 🔹 Navigation Links */}
-        <div className="flex space-x-8">
+        {/* 🔹 Right - Navigation Links */}
+        <div className="space-x-6">
           {[
-            { name: "Home", href: "/" },
             { name: "About", href: "/about" },
             { name: "Resume", href: "/resume" },
             { name: "Projects", href: "/projects" },
