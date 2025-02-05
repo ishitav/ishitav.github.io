@@ -85,7 +85,7 @@ export default function Resume() {
         <li> <strong>Machine Learning & AI:</strong> TensorFlow, PyTorch, Scikit-learn, Regression Analysis, SVM, Model Optimization</li>
         <li> <strong>System Design & Optimization:</strong> Real-time computing, low-level programming, hardware-software integration</li>
         <li> <strong>Tools & Technologies:</strong> Simulink, Vivado, QuestaSim, MySQL, Flask, Express, Fusion 360, Jupyter Notebook</li>
-        <li> <strong>Certifications & Training:</strong> Oracle Certified Associate (Java SE 8), FPGA Design Flow Training</li>
+        <li> <strong>Certifications & Training:</strong> Oracle Certified Associate (Java SE 8)</li>
       </ul>
     </div>
 

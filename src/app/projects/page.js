@@ -16,6 +16,7 @@ export default function Projects() {
             <li><strong>Film Club Web Scraper</strong> - Python + ML project for classifying film clubs.</li>
             <li><strong>IoT Sensor System</strong> - Embedded system for real-time data collection.</li>
             <li><strong>Data Visualization Dashboard</strong> - React + D3.js interactive data tool.</li>
+            <li><strong>Details coming soon!</strong> Stay tuned (: </li>
           </ul>
         </div>
 
