@@ -73,16 +73,21 @@ export default function Resume() {
           </div>
         </div>
 
-        {/* 🔹 Skills Section */}
-        <div className="mt-8 p-6 bg-gray-50 border-l-4 border-gray-500 rounded-xl shadow-md">
-          <h2 className="text-2xl font-semibold text-gray-800">🛠 Skills</h2>
-          <ul className="mt-2 text-lg text-gray-700 list-disc list-inside">
-            <li><strong>Programming:</strong> Python, MATLAB, C++, Java, JavaScript</li>
-            <li><strong>Machine Learning:</strong> TensorFlow, PyTorch, Scikit-learn</li>
-            <li><strong>Embedded Systems:</strong> Microcontrollers, FPGAs, IoT</li>
-            <li><strong>Signal Processing & Data Visualization</strong></li>
-          </ul>
-        </div>
+       
+    {/* Skills Section */}
+    <div className="mt-8 p-6 bg-gray-100 border-l-4 border-gray-500 rounded-xl shadow-md">
+      <h2 className="text-2xl font-semibold text-gray-800">🛠 Skills</h2>
+      <ul className="mt-2 text-lg text-gray-700 list-disc list-inside">
+        <li> <strong>Programming:</strong> Python, MATLAB, C/C++, Verilog, VHDL, Java, JavaScript, Bash, Git</li>
+        <li> <strong>Embedded Systems:</strong> Microcontrollers (ATMega32, STM32, ESP32, Raspberry Pi, Arduino), FPGAs (Xilinx Vivado, Intel Quartus)</li>
+        <li> <strong>Hardware & Circuit Design:</strong> PCB design (KiCad, Altium), SPICE simulation (LTspice, Multisim), hardware debugging</li>
+        <li> <strong>Wireless & Signal Processing:</strong> mMIMO, RF signal processing, channel modeling, spectral analysis</li>
+        <li> <strong>Machine Learning & AI:</strong> TensorFlow, PyTorch, Scikit-learn, Regression Analysis, SVM, Model Optimization</li>
+        <li> <strong>System Design & Optimization:</strong> Real-time computing, low-level programming, hardware-software integration</li>
+        <li> <strong>Tools & Technologies:</strong> Simulink, Vivado, QuestaSim, MySQL, Flask, Express, Fusion 360, Jupyter Notebook</li>
+        <li> <strong>Certifications & Training:</strong> Oracle Certified Associate (Java SE 8), FPGA Design Flow Training</li>
+      </ul>
+    </div>
 
         {/* 🔹 Back to Home Button */}
         <div className="mt-8 flex justify-center">

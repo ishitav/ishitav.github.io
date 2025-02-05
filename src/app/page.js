@@ -48,16 +48,16 @@ export default function Home() {
               Welcome! I'm Ishita.
             </h1>
             <h2 className="text-xl sm:text-2xl font-medium text-blue-500 mt-2">
-              Data Analyst | Software Engineer | Founder
+              Student | Researcher | Engineer
             </h2>
             <p className="mt-4 text-lg text-gray-700 leading-relaxed font-serif">
-              Hi there! I'm so glad you're here, I'd love to connect!
+              Hi there! I'm so glad you're here, I'd love to connect (: 
             </p>
           </div>
         </div>
 
         {/* 🔹 Social Links */}
-        <div className="mt-6 flex space-x-6">
+        <div className="mt-6 flex justify-center space-x-6 text-3xl">
           <a href="https://github.com/ishitav" target="_blank" className="text-gray-800 hover:text-gray-600 transition text-3xl">
             <FaGithub />
           </a>
