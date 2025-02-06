@@ -33,12 +33,12 @@ export default function About() {
         <div className="mt-12 border-t border-gray-400 pt-6 text-lg text-gray-700">
           <div className="flex flex-col sm:flex-row justify-between sm:space-x-10">
             <div>
-              <span className="font-semibold text-gray-800">📍 Location</span> <br />
+              <span className="font-semibold text-gray-800"> Location</span> <br />
               Los Angeles, CA
             </div>
            
             <div>
-              <span className="font-semibold text-gray-800">⚡ Current Interest</span> <br />
+              <span className="font-semibold text-gray-800"> Current Interest</span> <br />
               Exploring hardware for AI & biotech applications.
             </div>
           </div>
