@@ -12,7 +12,7 @@ export default function Header() {
         <div className="flex space-x-6 ml-4px">
           {[
             { name: "About", href: "/about" },
-            { name: "Resume", href: "/resume" },
+            { name: "Projects", href: "/projects" },
             { name: "Publications", href: "/publications" },
            
             { name: "Contact", href: "/contact" }
