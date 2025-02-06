@@ -56,7 +56,7 @@ export default function Resume() {
                 <h3 className="text-xl font-semibold text-gray-800">Wireless Systems & Devices Group</h3>
                 <p className="text-gray-600 text-sm">Research Assistant | May 2023 – Present</p>
                 <p className="mt-2 text-lg text-gray-700">
-                  Developed signal processing algorithms for large-scale **mMIMO networks**, refined **OTA calibration techniques**, and conducted **wireless system evaluations** in urban environments.
+                  Developed signal processing algorithms for large-scale mMIMO networks, refined OTA calibration techniques, and conducted wireless system evaluations in urban environments.
                 </p>
               </div>
             </div>
@@ -70,7 +70,7 @@ export default function Resume() {
                 <h3 className="text-xl font-semibold text-gray-800">Autonomous Networks Research Group</h3>
                 <p className="text-gray-600 text-sm">Research Assistant | June 2024 – Present</p>
                 <p className="mt-2 text-lg text-gray-700">
-                  Worked on **Kolmogorov-Arnold Network (KAN) architecture** in PyTorch, integrating product operations and node aggregation. Conducted **model evaluations** using performance metrics and data visualization.
+                  Worked on Kolmogorov-Arnold Network (KAN) architecture in PyTorch, integrating product operations and node aggregation. Conducted model evaluations using performance metrics and data visualization.
                 </p>
               </div>
             </div>
@@ -84,7 +84,7 @@ export default function Resume() {
                 <h3 className="text-xl font-semibold text-gray-800">Teradyne</h3>
                 <p className="text-gray-600 text-sm">Intern & Contractor | June 2024 – Dec 2024</p>
                 <p className="mt-2 text-lg text-gray-700">
-                  Developed a **Python-based GUI tool** for large dataset visualization and **executed PLL tests** for phase noise, jitter, and lock-time verification.
+                  Developed a Python-based GUI tool for large dataset visualization and executed PLL tests for phase noise, jitter, and lock-time verification.
                 </p>
               </div>
             </div>
@@ -116,7 +116,7 @@ export default function Resume() {
             </div>
             <div>
               <h3 className="text-xl font-semibold text-gray-800">QB7 Makers - Robotics & Embedded Systems</h3>
-              <p className="text-gray-600">Developed a **cubic-shaped robot with flip functionality**, integrating **electrical components and software** using Raspberry Pi.</p>
+              <p className="text-gray-600">Developed a cubic-shaped robot with flip functionality, integrating electrical components and software using Raspberry Pi.</p>
               <a href="#" className="text-blue-600 hover:underline text-lg">GitHub Repo</a>
             </div>
           </div>
@@ -128,7 +128,7 @@ export default function Resume() {
             </div>
             <div>
               <h3 className="text-xl font-semibold text-gray-800">BioBotanic - Self Automated Greenhouse</h3>
-              <p className="text-gray-600">Designed an **automated greenhouse system** with optimal moisture and lighting control, supporting **30+ plant types**.</p>
+              <p className="text-gray-600">Designed an automated greenhouse system with optimal moisture and lighting control, supporting 30+ plant types.</p>
               <a href="#" className="text-blue-600 hover:underline text-lg">GitHub Repo</a>
             </div>
           </div>
@@ -140,7 +140,7 @@ export default function Resume() {
             </div>
             <div>
               <h3 className="text-xl font-semibold text-gray-800">Film Club Web Scraper</h3>
-              <p className="text-gray-600">Built a **Python-based web scraper** using machine learning for film club classification.</p>
+              <p className="text-gray-600">Built a Python-based web scraper using machine learning for film club classification.</p>
               <a href="#" className="text-blue-600 hover:underline text-lg">GitHub Repo</a>
             </div>
           </div>
