@@ -13,7 +13,6 @@ export default function Header() {
           {[
             { name: "About", href: "/about" },
             { name: "Resume", href: "/resume" },
-            { name: "Projects", href: "/projects" },
             { name: "Publications", href: "/publications" },
            
             { name: "Contact", href: "/contact" }
