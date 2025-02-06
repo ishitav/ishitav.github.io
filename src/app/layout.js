@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Ishita Vasishtha",
   description: "Student | Researcher | Engineer ",
+  icon: "usc-logo.png",
 };
 
 export default function RootLayout({ children }) {
