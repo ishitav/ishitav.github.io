@@ -21,19 +21,13 @@ export default function Contact() {
           Feel free to reach out! Whether it's for a collaboration, a project idea, or just to connect—I’d love to hear from you.
         </p>
 
-        {/* 🔹 Contact Info */}
-        <div className="mt-6 space-y-3 text-lg text-gray-700">
-          <p><strong>Email:</strong> <a href="mailto:ishitavas@gmail.com" className="text-blue-600 hover:underline">ishitavas@gmail.com</a></p>
-          <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/ishitav" target="_blank" className="text-blue-600 hover:underline">linkedin.com/in/ishitav</a></p>
-          <p><strong>GitHub:</strong> <a href="https://github.com/ishitav" target="_blank" className="text-blue-600 hover:underline">github.com/ishitav</a></p>
-        </div>
-
+       
         {/* 🔹 Social Links */}
         <div className="mt-6 flex justify-center space-x-6 text-3xl">
           <a href="https://github.com/ishitav" target="_blank" className="text-gray-800 hover:text-gray-600 transition">
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/in/ishitav" target="_blank" className="text-blue-700 hover:text-blue-500 transition">
+          <a href="https://linkedin.com/in/ishitavas" target="_blank" className="text-blue-700 hover:text-blue-500 transition">
             <FaLinkedin />
           </a>
           <a href="mailto:ishitavas@gmail.com" className="text-gray-700 hover:text-gray-500 transition">
