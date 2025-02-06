@@ -9,7 +9,7 @@ export default function Header() {
         </a>
 
         {/* 🔹 Right - Navigation Links */}
-        <div className="flex space-x-6 ml-10px">
+        <div className="flex space-x-6 ml-5px">
           {[
             { name: "About", href: "/about" },
             { name: "Resume", href: "/resume" },
