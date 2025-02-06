@@ -18,13 +18,13 @@ export default function Resume() {
          
         </div>
 
-        {/* 🔹 Education Section */}
-        <div className="mt-12 flex flex-col sm:flex-row items-center text-left">
-          
-          {/* University Logo */}
-          <div className="w-24 h-24 rounded-full border-2 border-gray-400 shadow-md overflow-hidden">
-            <img src="/usc-logo.png" alt="USC Logo" className="w-full h-full object-cover" />
-          </div>
+       {/* 🔹 Education Section */}
+<div className="mt-12 flex flex-col sm:flex-row items-center text-left">
+  
+  {/* University Logo */}
+  <div className="w-24 h-24 rounded-full border-2 border-gray-400 shadow-md flex items-center justify-center bg-white">
+    <img src="/usc-logo.png" alt="USC Logo" className="w-full h-full object-contain rounded-full" />
+  </div>
 
           {/* Education Details */}
           <div className="sm:ml-6 mt-4 sm:mt-0">
@@ -35,7 +35,7 @@ export default function Resume() {
               <span className="text-gray-500 text-sm">Minor: Entrepreneurship</span>
             </p>
             <p className="mt-2 text-lg text-gray-700">
-              Relevant coursework: Embedded Systems Design Laboratory, Software Design, Applications of Machine Learning, Applied Python, Computer Programming, Digital Circuits, Linear Circuits, Electromagnetics, Linear Systems,   Distributed Systems for IoT, 3D Modeling Animation and Visual Effects
+              Relevant coursework: Embedded Systems Design Laboratory, Software Design, Applications of Machine Learning, Applied Python, Computer Programming, Digital Circuits, Linear Circuits, Electromagnetics, Linear Systems, Distributed Systems for IoT, 3D Modeling Animation and Visual Effects
             </p>
           </div>
         </div>
