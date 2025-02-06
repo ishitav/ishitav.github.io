@@ -21,16 +21,25 @@ export default function Resume() {
         </div>
 
         {/* 🔹 Education Section */}
-        <div className="mt-12">
-          <h2 className="text-2xl font-semibold text-gray-800 font-mono">Education</h2>
-          <p className="mt-2 text-lg text-gray-700">
-            B.S. Electrical & Computer Engineering <br />
-            <span className="text-gray-600">University of Southern California, May 2026</span> <br />
-            <span className="text-gray-500 text-sm">Minor: Entrepreneurship</span>
-          </p>
-          <p className="mt-2 text-lg text-gray-700">
-            Relevant coursework includes Embedded Systems, Machine Learning Applications, Digital Circuits, Distributed IoT Systems, 3D Modeling & Visual Effects.
-          </p>
+        <div className="mt-12 flex flex-col sm:flex-row items-center text-left">
+          
+          {/* University Logo */}
+          <div className="w-24 h-24 rounded-full border-2 border-gray-400 shadow-md overflow-hidden">
+            <img src="/usc-logo.png" alt="USC Logo" className="w-full h-full object-cover" />
+          </div>
+
+          {/* Education Details */}
+          <div className="sm:ml-6 mt-4 sm:mt-0">
+            <h2 className="text-2xl font-semibold text-gray-800 font-mono">Education</h2>
+            <p className="mt-2 text-lg text-gray-700">
+              B.S. Electrical & Computer Engineering <br />
+              <span className="text-gray-600">University of Southern California, May 2026</span> <br />
+              <span className="text-gray-500 text-sm">Minor: Entrepreneurship</span>
+            </p>
+            <p className="mt-2 text-lg text-gray-700">
+              Relevant coursework includes Embedded Systems, Machine Learning Applications, Digital Circuits, Distributed IoT Systems, 3D Modeling & Visual Effects.
+            </p>
+          </div>
         </div>
 
         {/* 🔹 Work Experience Section */}
@@ -97,23 +106,31 @@ export default function Resume() {
             {
               title: "QB7 Makers - Robotics & Embedded Systems",
               description: "Developed a cubic-shaped robot with flip functionality, integrating electrical components and software using Raspberry Pi.",
+              image: "/usc-logo.png",
               link: "#"
             },
             {
               title: "BioBotanic - Self Automated Greenhouse",
               description: "Designed an automated greenhouse system with optimal moisture and lighting control, supporting 30+ plant types.",
+              image: "/usc-logo.png",
               link: "#"
             },
             {
               title: "Film Club Web Scraper",
               description: "Built a Python-based web scraper using machine learning for film club classification.",
+              image: "/usc-logo.png",
               link: "#"
             }
           ].map((project, index) => (
-            <div key={index} className="mt-6 text-left">
-              <h3 className="text-xl font-semibold text-gray-800">{project.title}</h3>
-              <p className="text-gray-600">{project.description}</p>
-              <a href={project.link} className="text-blue-600 hover:underline text-lg">GitHub Repo</a>
+            <div key={index} className="mt-6 flex flex-col sm:flex-row items-center sm:items-start text-left space-x-6">
+              <div className="w-36 h-36 rounded-lg border border-gray-400 overflow-hidden">
+                <img src={project.image} alt="Project Image" className="w-full h-full object-cover" />
+              </div>
+              <div>
+                <h3 className="text-xl font-semibold text-gray-800">{project.title}</h3>
+                <p className="text-gray-600">{project.description}</p>
+                <a href={project.link} className="text-blue-600 hover:underline text-lg">GitHub Repo</a>
+              </div>
             </div>
           ))}
         </div>
