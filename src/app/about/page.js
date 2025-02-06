@@ -51,23 +51,30 @@ export default function About() {
           </div>
         </div>
 
-        {/* 🔹 Quick Info Section (More Spread Out & Readable) */}
-        <div className="mt-12 border-t border-gray-400 pt-6 text-lg text-gray-700">
-          <div className="flex flex-col sm:flex-row justify-between sm:space-x-10">
-            <div>
-              <span className="font-semibold text-gray-800">📍 Location</span> <br />
-              Los Angeles, CA
-            </div>
-            <div>
-              <span className="font-semibold text-gray-800">🌟 Fun Fact</span> <br />
-              I love solving chess puzzles & strategy games!
-            </div>
-            <div>
-              <span className="font-semibold text-gray-800">⚡ Current Interest</span> <br />
-              Exploring hardware for AI & biotech applications.
-            </div>
+        {/* 🔹 Quick Info Section (Balanced & Professional) */}
+      <div className="mt-12 border-t border-gray-400 pt-6 text-lg text-gray-700">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
+          
+          {/* Location */}
+          <div className="flex flex-col items-center">
+            <span className="text-xl font-semibold text-gray-800 font-mono">Location</span>
+            <p className="mt-2 text-gray-600 font-sans">Los Angeles, CA</p>
           </div>
+
+          {/* Personal Interests */}
+          <div className="flex flex-col items-center">
+            <span className="text-xl font-semibold text-gray-800 font-mono">Personal Interests</span>
+            <p className="mt-2 text-gray-600 font-sans">Chess Puzzles, Jewelry Making, Reading</p>
+          </div>
+
+          {/* What I'm Exploring */}
+          <div className="flex flex-col items-center">
+            <span className="text-xl font-semibold text-gray-800 font-mono">What I'm Exploring</span>
+            <p className="mt-2 text-gray-600 font-sans">Learning about hardware design and its applications in AI and edge computing.</p>
+          </div>
+
         </div>
+      </div>
 
         {/* 🔹 Opportunity Section */}
         <p className="mt-12 text-lg text-gray-700 leading-relaxed sm:w-3/4">
