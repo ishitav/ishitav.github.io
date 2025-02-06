@@ -13,10 +13,10 @@ export default function Publications() {
         {/* 🔹 Page Title */}
         <div className="text-left">
           <h1 className="text-4xl font-extrabold text-gray-800 tracking-tight font-mono">
-            Research & Publications
+            Publications
           </h1>
           <p className="mt-4 text-lg text-gray-700 leading-relaxed max-w-2xl">
-            My research focuses on wireless systems, signal processing, and AI. Below is my first published paper, and I am in the process of submitting more currently! 
+            My research focuses on wireless systems, signal processing, and AI. Below is my first published paper, and I am in the process of working towards more! 
           </p>
         </div>
 
