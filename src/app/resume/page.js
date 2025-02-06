@@ -15,9 +15,7 @@ export default function Resume() {
           <h1 className="text-4xl font-extrabold text-gray-800 tracking-tight font-mono">
             Resume
           </h1>
-          <p className="mt-4 text-lg text-gray-700 leading-relaxed max-w-2xl">
-            A summary of my education, work experience, projects, and technical skills.
-          </p>
+         
         </div>
 
         {/* 🔹 Education Section */}
@@ -37,7 +35,7 @@ export default function Resume() {
               <span className="text-gray-500 text-sm">Minor: Entrepreneurship</span>
             </p>
             <p className="mt-2 text-lg text-gray-700">
-              Relevant coursework includes Embedded Systems, Machine Learning Applications, Digital Circuits, Distributed IoT Systems, 3D Modeling & Visual Effects.
+              Relevant coursework: Embedded Systems Design Laboratory, Software Design, Applications of Machine Learning, Applied Python, Computer Programming, Digital Circuits, Linear Circuits, Electromagnetics, Linear Systems,   Distributed Systems for IoT, 3D Modeling Animation and Visual Effects
             </p>
           </div>
         </div>
