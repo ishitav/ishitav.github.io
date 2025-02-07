@@ -4,7 +4,7 @@ const projects = [
   {
     title: "QB7  - Cublical version of BB-8",
     description:
-      "Designed a cubic-shaped robot with flip functionality, integrating electrical components and software using Raspberry Pi.",
+      "Designed and built a self-balancing cubic robot with flip functionality, integrating motor control, embedded software, and hardware components. Developed motion algorithms on a Raspberry Pi, optimized power management, and created CAD models for mechanical stability.",
     techStack: ["Python", "Raspberry Pi", "Embedded Systems", "CAD", "Motor Control"],
     image: "/usc-logo.png", // Placeholder
     github: "#",
@@ -12,7 +12,7 @@ const projects = [
   {
     title: "BioBotanic - Self Automated Greenhouse",
     description:
-      "Developed an automated greenhouse system with optimal moisture and lighting control, supporting 30+ plant types.",
+      "Developed an autonomous greenhouse system that optimizes plant growth using IoT sensors for moisture, lighting, and temperature control. Implemented real-time monitoring and automation for over 30+ plant types, leveraging PWM for precision control.",
     techStack: ["Arduino", "C++", "IoT Sensors", "Automation", "PWM"],
     image: "/usc-logo.png", // Placeholder
     github: "#",
@@ -20,7 +20,7 @@ const projects = [
   {
     title: "Film Club Web Scraper",
     description:
-      "Built a Python-based web scraper using machine learning for film club classification across U.S. universities.",
+      "Engineered a Python-based web scraper to classify and aggregate film club information across U.S. states and cities. Integrated machine learning algorithms for classification, utilizing Scikit-learn for pattern recognition and BeautifulSoup for efficient data extraction.",
     techStack: ["Python", "BeautifulSoup", "Scikit-learn", "Data Scraping", "Machine Learning"],
     image: "/usc-logo.png", // Placeholder
     github: "#",
