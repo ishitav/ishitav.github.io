@@ -7,7 +7,7 @@ const projects = [
       "Designed and built a self-balancing cubic robot with flip functionality, integrating motor control, embedded software, and hardware components. Developed motion algorithms on a Raspberry Pi, optimized power management, and created CAD models for mechanical stability.",
     techStack: ["Python", "Raspberry Pi", "Embedded Systems", "CAD", "Motor Control"],
    //image: "/usc-logo.png", // Placeholder
-    github: "#",
+   // github: "#",
   },
   {
     title: "BioBotanic - Self Automated Greenhouse",
@@ -15,7 +15,7 @@ const projects = [
       "Developed an autonomous greenhouse system that optimizes plant growth using IoT sensors for moisture, lighting, and temperature control. Implemented real-time monitoring and automation for over 30+ plant types, leveraging PWM for precision control.",
     techStack: ["Arduino", "C++", "IoT Sensors", "Automation", "PWM"],
     //image: "/usc-logo.png", // Placeholder
-    github: "#",
+   // github: "#",
   },
   {
     title: "Film Club Web Scraper",
@@ -23,7 +23,7 @@ const projects = [
       "Engineered a Python-based web scraper to classify and aggregate film club information across U.S. states and cities. Integrated machine learning algorithms for classification, utilizing Scikit-learn for pattern recognition and BeautifulSoup for efficient data extraction.",
     techStack: ["Python", "BeautifulSoup", "Scikit-learn", "Data Scraping", "Machine Learning"],
    // image: "/usc-logo.png", // Placeholder
-    github: "#",
+   // github: "#",
   },
 
   ,
@@ -33,7 +33,7 @@ const projects = [
       "Developed a Verilog-based game inspired by Flappy Bird on the Nexys-4 FPGA with real-time VGA rendering, state machine logic, and collision detection. Designed modular components, including a top-level state controller, block controller for player movement, and VGA display controller for dynamic rendering. Implemented one-hot state machines, hardware-based timing constraints, and level progression with adaptive difficulty.",
     techStack: ["Verilog", "Vivado", "FPGA (Nexys-4)","VGA Rendering","State Machine Logic", "Digital Design"],
    // image: "/usc-logo.png", // Placeholder
-    github: "#",
+   // github: "#",
   },
 
 
@@ -88,7 +88,7 @@ export default function Projects() {
                 </ul>
               </div>
 
-              {/* GitHub Link */}
+              {/* GitHub Link
               <a
                 href={project.github}
                 target="_blank"
@@ -96,7 +96,7 @@ export default function Projects() {
                 className="inline-block mt-4 text-blue-600 hover:underline text-lg font-medium"
               >
                 View on GitHub →
-              </a>
+              </a> */}
             </div>
           ))}
         </div>
