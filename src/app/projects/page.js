@@ -31,7 +31,7 @@ const projects = [
     title: "FPGA Flappy Bird",
     description:
       "Developed a Verilog-based game inspired by Flappy Bird on the Nexys-4 FPGA with real-time VGA rendering, state machine logic, and collision detection. Designed modular components, including a top-level state controller, block controller for player movement, and VGA display controller for dynamic rendering. Implemented one-hot state machines, hardware-based timing constraints, and level progression with adaptive difficulty.",
-    techStack: ["Verilog"],
+    techStack: ["Verilog", "Vivado", "FPGA (Nexys-4)","VGA Rendering","State Machine Logic", "Digital Design"],
    // image: "/usc-logo.png", // Placeholder
     github: "#",
   },
