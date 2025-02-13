@@ -28,7 +28,7 @@ export default function Home() {
             </h2>
             <p className="mt-4 text-lg text-gray-700 leading-relaxed font-serif max-w-lg" >
               Hi there! I'm so glad you're here. I’m an <span className="text-blue-600 font-medium">Electrical & Computer Engineering</span> student passionate about  
-              <span className="text-gray-700 font-medium"> research, technology, </span>   and the intersection between <span className="text-blue-600 font-medium">technology</span>  
+              <span className="text-gray-700 font-medium"> research, technology, </span>   and the intersection between <span className="text-blue-600 font-medium">technology </span>  
               and  <span className="text-blue-600 font-medium">healthcare. </span>
               I'd love to connect (: 
             </p>
