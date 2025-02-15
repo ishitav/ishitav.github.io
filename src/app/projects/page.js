@@ -18,6 +18,25 @@ const projects = [
     // image: "/usc-logo.png", // Placeholder
     // github: "#",
 },
+
+{
+  title: "FPGA Flappy Bird",
+  description:
+    "Developed a Verilog-based game inspired by Flappy Bird on the Nexys-4 FPGA with real-time VGA rendering, state machine logic, and collision detection. Designed modular components, including a top-level state controller, block controller for player movement, and VGA display controller for dynamic rendering. Implemented one-hot state machines, hardware-based timing constraints, and level progression with adaptive difficulty.",
+  techStack: ["Verilog", "Vivado", "FPGA (Nexys-4)","VGA Rendering","State Machine Logic", "Digital Design"],
+ // image: "/usc-logo.png", // Placeholder
+ // github: "#",
+},
+
+{
+  title: "Film Club Web Scraper",
+  description:
+    "Engineered a Python-based web scraper to classify and aggregate film club information across U.S. states and cities. Integrated machine learning algorithms for classification, utilizing Scikit-learn for pattern recognition and BeautifulSoup for efficient data extraction.",
+  techStack: ["Python", "BeautifulSoup", "Scikit-learn", "Data Scraping", "Machine Learning"],
+ // image: "/usc-logo.png", // Placeholder
+ // github: "#",
+},
+
 {
   "title": "QB7 - Cubical Version of BB-8",
   "description":
@@ -56,26 +75,7 @@ const projects = [
   ],
   //image: "/usc-logo.png", // Placeholder
   // github: "#",
-},
-  {
-    title: "Film Club Web Scraper",
-    description:
-      "Engineered a Python-based web scraper to classify and aggregate film club information across U.S. states and cities. Integrated machine learning algorithms for classification, utilizing Scikit-learn for pattern recognition and BeautifulSoup for efficient data extraction.",
-    techStack: ["Python", "BeautifulSoup", "Scikit-learn", "Data Scraping", "Machine Learning"],
-   // image: "/usc-logo.png", // Placeholder
-   // github: "#",
-  },
-
-  ,
-  {
-    title: "FPGA Flappy Bird",
-    description:
-      "Developed a Verilog-based game inspired by Flappy Bird on the Nexys-4 FPGA with real-time VGA rendering, state machine logic, and collision detection. Designed modular components, including a top-level state controller, block controller for player movement, and VGA display controller for dynamic rendering. Implemented one-hot state machines, hardware-based timing constraints, and level progression with adaptive difficulty.",
-    techStack: ["Verilog", "Vivado", "FPGA (Nexys-4)","VGA Rendering","State Machine Logic", "Digital Design"],
-   // image: "/usc-logo.png", // Placeholder
-   // github: "#",
-  },
-
+}
 
 ];
 
