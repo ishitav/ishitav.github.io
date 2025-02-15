@@ -39,7 +39,7 @@ const projects = [
 {
   "title": "QB7 - Cubical Version of BB-8",
   "description":
-    "Built a self-balancing cubic robot that moves and flips using servos and a momentum wheel. Programmed a Raspberry Pi to calculate the robot’s tilt and adjust motor speeds to keep it upright. Implemented control logic that changes motor output based on sensor feedback to correct balance and execute flips. Designed a braking mechanism to stop unwanted motion and allow controlled direction changes. Created CAD models to fit all components within space constraints and ensure proper weight distribution. Expanding the system to allow movement in all three dimensions. Developing a remote control interface with a React Native frontend and an Express backend to send movement commands to the robot over the internet.",
+    "Built a self-balancing cubic robot that moves and flips using servos and a momentum wheel. Programmed a Raspberry Pi to control motor speed and balance based on sensor feedback. Designed a braking mechanism for controlled movement and direction changes. Created CAD models to fit components within space constraints and ensure proper weight distribution. Expanding functionality for three-dimensional movement and developing a remote control interface with a React Native frontend and an Express backend for internet-based operation.",
   "techStack": [
     "Python",
     "Raspberry Pi",
