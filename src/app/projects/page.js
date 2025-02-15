@@ -10,10 +10,9 @@ const projects = [
       "ATMega32",
       "C",
       "Motor Control",
-      "MEMS Sensors (Gyroscope/Accelerometer)",
+      "MEMS Sensors",
       "Ultrasonic Sensors",
       "LCD Display Integration",
-      "Serial Communication (SPI/I2C)",
     ],
     // image: "/usc-logo.png", // Placeholder
     // github: "#",
