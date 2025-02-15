@@ -9,18 +9,11 @@ const projects = [
     "techStack": [
       "ATMega32",
       "C",
-      "Embedded Systems",
       "Motor Control",
       "MEMS Sensors (Gyroscope/Accelerometer)",
       "Ultrasonic Sensors",
       "LCD Display Integration",
-      "Real-Time Embedded Programming",
-      "PWM Motor Control",
-      "Microcontroller-Based Control Systems",
-      "Serial Communication (SPI/I2C where applicable)",
-      "PCB Design",
-      "Power Management",
-      "Mechanical Design & CAD"
+      "Serial Communication (SPI/I2C)",
     ],
     // image: "/usc-logo.png", // Placeholder
     // github: "#",
@@ -32,18 +25,14 @@ const projects = [
   "techStack": [
     "Python",
     "Raspberry Pi",
-    "Embedded Systems",
     "Motor Control",
     "Servos & Momentum Wheel",
     "Balance and Motion Control Logic",
     "CAD & Mechanical Design",
-    "Braking Mechanism Design",
     "React Native",
     "Express.js",
     "Remote Control via Web App",
     "IoT & Wireless Communication",
-    "Power Management",
-    "PCB Design"
   ],
  //image: "/usc-logo.png", // Placeholder
  // github: "#",
