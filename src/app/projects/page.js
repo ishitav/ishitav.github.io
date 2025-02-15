@@ -5,7 +5,7 @@ const projects = [
   {
     "title": "(In Progress) Voice and Motion Recognition-Based Wheelchair System",
     "description":
-      "The system integrates voice recognition, MEMS-based gesture control, and button navigation, processed through an ATMega32 microcontroller. High-torque DC motors with motor controllers enable precise differential steering, while ultrasonic sensors provide real-time obstacle detection and automatic braking. An LCD display outputs system status, and an onboard speaker provides audio feedback for commands and alerts. The emergency stop function allows immediate manual override, with potential integration of an emergency text alert system and GPS-based location sharing for additional safety. The system is programmed in C for real-time responsiveness and reliable operation.",
+      "The system integrates voice recognition, MEMS-based gesture control, and button navigation, processed through an ATMega32 microcontroller. High-torque DC motors with motor controllers enable precise differential steering, while ultrasonic sensors provide real-time obstacle detection and automatic braking. An LCD display outputs system status, and an onboard speaker provides audio feedback for commands and alerts. The emergency stop function allows immediate manual override, with potential integration of an emergency text alert system and GPS-based location sharing for additional safety.",
     "techStack": [
       "ATMega32",
       "C",
