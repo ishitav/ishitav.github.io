@@ -1,6 +1,30 @@
 import Header from "../../../components/Header";
 
 const projects = [
+  
+  {
+    "title": "(In Progress) Voice and Motion Recognition-Based Wheelchair System",
+    "description":
+      "Developing an intelligent wheelchair with multimodal control to improve mobility and accessibility for individuals with physical disabilities. The system integrates voice recognition, MEMS-based gesture control, and button navigation, processed through an ATMega32 microcontroller. Movement is controlled via high-torque DC motors and motor controllers, allowing for precise differential steering. Ultrasonic sensors provide real-time obstacle detection and automatic braking to enhance safety. An LCD display offers system status updates, including control mode selection, battery level monitoring, and movement confirmation, while an onboard speaker provides audible feedback for user commands and alerts. The emergency stop function allows for immediate manual override, and, if feasible, an emergency text alert system and GPS-based location sharing may be integrated for additional safety. The wheelchair's control system is programmed in C and optimized for real-time responsiveness, ensuring smooth and reliable operation.",
+    "techStack": [
+      "ATMega32",
+      "C",
+      "Embedded Systems",
+      "Motor Control",
+      "MEMS Sensors (Gyroscope/Accelerometer)",
+      "Ultrasonic Sensors",
+      "LCD Display Integration",
+      "Real-Time Embedded Programming",
+      "PWM Motor Control",
+      "Microcontroller-Based Control Systems",
+      "Serial Communication (SPI/I2C where applicable)",
+      "PCB Design",
+      "Power Management",
+      "Mechanical Design & CAD"
+    ],
+    // image: "/usc-logo.png", // Placeholder
+    // github: "#",
+  },
   {
     title: "QB7  - Cublical version of BB-8",
     description:
