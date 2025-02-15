@@ -5,7 +5,7 @@ const projects = [
   {
     "title": "(In Progress) Voice and Motion Recognition-Based Wheelchair System",
     "description":
-      "Developing an intelligent wheelchair with multimodal control to improve mobility and accessibility for individuals with physical disabilities. The system integrates voice recognition, MEMS-based gesture control, and button navigation, processed through an ATMega32 microcontroller. Movement is controlled via high-torque DC motors and motor controllers, allowing for precise differential steering. Ultrasonic sensors provide real-time obstacle detection and automatic braking to enhance safety. An LCD display offers system status updates, including control mode selection, battery level monitoring, and movement confirmation, while an onboard speaker provides audible feedback for user commands and alerts. The emergency stop function allows for immediate manual override, and, if feasible, an emergency text alert system and GPS-based location sharing may be integrated for additional safety. The wheelchair's control system is programmed in C and optimized for real-time responsiveness, ensuring smooth and reliable operation.",
+      "Developing an intelligent wheelchair with multimodal control to enhance mobility and accessibility for individuals with physical disabilities. The system integrates voice recognition, MEMS-based gesture control, and button navigation, processed through an ATMega32 microcontroller. High-torque DC motors with motor controllers enable precise differential steering, while ultrasonic sensors provide real-time obstacle detection and automatic braking. An LCD display outputs system status, and an onboard speaker provides audio feedback for commands and alerts. The emergency stop function allows immediate manual override, with potential integration of an emergency text alert system and GPS-based location sharing for additional safety. The system is programmed in C for real-time responsiveness and reliable operation.",
     "techStack": [
       "ATMega32",
       "C",
@@ -24,23 +24,50 @@ const projects = [
     ],
     // image: "/usc-logo.png", // Placeholder
     // github: "#",
-  },
-  {
-    title: "QB7  - Cublical version of BB-8",
-    description:
-      "Designed and built a self-balancing cubic robot with flip functionality, integrating motor control, embedded software, and hardware components. Developed motion algorithms on a Raspberry Pi, optimized power management, and created CAD models for mechanical stability.",
-    techStack: ["Python", "Raspberry Pi", "Embedded Systems", "CAD", "Motor Control"],
-   //image: "/usc-logo.png", // Placeholder
-   // github: "#",
-  },
-  {
-    title: "BioBotanic - Self Automated Greenhouse",
-    description:
-      "Developed an autonomous greenhouse system that optimizes plant growth using IoT sensors for moisture, lighting, and temperature control. Implemented real-time monitoring and automation for over 30+ plant types, leveraging PWM for precision control.",
-    techStack: ["Arduino", "C++", "IoT Sensors", "Automation", "PWM"],
-    //image: "/usc-logo.png", // Placeholder
-   // github: "#",
-  },
+},
+{
+  "title": "QB7 - Cubical Version of BB-8",
+  "description":
+    "Built a self-balancing cubic robot that moves and flips using servos and a momentum wheel. Programmed a Raspberry Pi to calculate the robot’s tilt and adjust motor speeds to keep it upright. Implemented control logic that changes motor output based on sensor feedback to correct balance and execute flips. Designed a braking mechanism to stop unwanted motion and allow controlled direction changes. Created CAD models to fit all components within space constraints and ensure proper weight distribution. Expanding the system to allow movement in all three dimensions. Developing a remote control interface with a React Native frontend and an Express backend to send movement commands to the robot over the internet.",
+  "techStack": [
+    "Python",
+    "Raspberry Pi",
+    "Embedded Systems",
+    "Motor Control",
+    "Servos & Momentum Wheel",
+    "Balance and Motion Control Logic",
+    "CAD & Mechanical Design",
+    "Braking Mechanism Design",
+    "React Native",
+    "Express.js",
+    "Remote Control via Web App",
+    "IoT & Wireless Communication",
+    "Power Management",
+    "PCB Design"
+  ],
+ //image: "/usc-logo.png", // Placeholder
+ // github: "#",
+},
+{
+  "title": "BioBotanic - Self-Automated Greenhouse",
+  "description":
+    "Developed an autonomous greenhouse system that monitors and adjusts environmental conditions for optimal plant growth. Integrated IoT sensors to regulate moisture, lighting, and temperature, with automated irrigation and real-time monitoring. The system supports over 30 plant types with a plant database storing optimal growth parameters, time-series environmental logging, and user notes. A web-based interface allows manual override, live greenhouse monitoring, and dynamic light adjustment. Implemented PWM with MOSFET control for grow lights, enabling plant-specific brightness levels.",
+  "techStack": [
+    "Arduino",
+    "C++",
+    "IoT Sensors",
+    "PWM with MOSFET",
+    "Soil Moisture Sensors",
+    "Mini Water Pump",
+    "1-Channel 5V Relay Module",
+    "Vinyl Tubing",
+    "LED Grow Lights",
+    "Raspberry Pi",
+    "Pi Camera",
+  ],
+  //image: "/usc-logo.png", // Placeholder
+  // github: "#",
+},
   {
     title: "Film Club Web Scraper",
     description:
